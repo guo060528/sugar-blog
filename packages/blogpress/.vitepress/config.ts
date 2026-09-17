@@ -1,5 +1,4 @@
 import { defineConfig } from 'vitepress'
-import { La51Plugin } from 'vitepress-plugin-51la'
 import { blogTheme } from './blog-theme'
 
 export default defineConfig({
@@ -42,13 +41,7 @@ export default defineConfig({
     ],
   ],
   vite: {
-    plugins: [
-      La51Plugin({
-        id: 'Jgmg5avjAUvoyePS',
-        ck: 'Jgmg5avjAUvoyePS',
-        importMode: 'async'
-      })
-    ]
+    plugins: []
   },
   vue: {
     template: {
